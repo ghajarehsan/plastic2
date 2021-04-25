@@ -1,0 +1,47 @@
+.menu {
+
+    background: white;
+
+}
+
+.menu-right > ul {
+    border-right: 1px solid #ccc;
+}
+
+.menu-right > ul > li {
+
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+
+
+.menu-right > ul > li:hover {
+
+    box-shadow: 0 0 6px #ccc;
+    background: #f0f2f7;
+
+}
+
+.main-content {
+
+    padding: 20px 0px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    background: white;
+}
+
+body {
+
+    background: #f0f2f7;
+
+}
+
+
+
+

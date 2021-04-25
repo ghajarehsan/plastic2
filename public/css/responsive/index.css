@@ -1,0 +1,7 @@
+@media screen and (max-width: 568px) {
+
+  .notification-alert{
+      display: none;
+  }
+
+}

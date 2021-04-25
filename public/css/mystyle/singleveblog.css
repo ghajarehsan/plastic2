@@ -1,0 +1,402 @@
+/*======================== single-breadcrumb */
+.single-breadcrumb, .single-post-inner, .single-box-download, .related-posts {
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all .3s ease;
+    box-shadow: 0 5px 30px rgba(70, 72, 77, .08);
+    padding: 15px 15px 3px;
+    margin-bottom: 1.5rem;
+}
+
+/*=========================== single-post-inner */
+.single-post-inner {
+    overflow: hidden;
+    padding: 15px;
+}
+
+.single-inner-header {
+    margin-bottom: 1.875rem;
+}
+
+.single-inner-header h1 {
+    border-bottom: 2px solid #f3f3f3;
+    color: #0a0909;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.single-post-meat, .single-post-meat a {
+    color: #8f8f8f;
+}
+
+/*======================= video-single */
+.video-single {
+    padding: 20px;
+}
+
+.video-single video {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #aaa;
+    border: 5px solid #000;
+}
+
+.video-single img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #aaa;
+
+}
+
+/*============================== single-content */
+
+.single-content {
+    padding: 20px;
+}
+
+.single-content img {
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.single-content video {
+
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #aaa;
+    border: 5px solid #000;
+
+}
+
+.single-content p {
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.single-content h2 {
+    line-height: 24px;
+    font-weight: 400;
+    color: #4ba4fe;
+    font-size: 24px;
+}
+
+/*====================== avatar-box*/
+.avatar-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 12px 0 #4ca5ff30;
+}
+
+.author-img {
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    width: 160px;
+    margin: -50px 0 0;
+    text-align: center;
+}
+
+.author-img img {
+    border-radius: 50%;
+    display: block;
+    border: 2px solid #4ca5ff;
+    box-shadow: 0 1px 12px 0 #4ca5ff30;
+    width: 150px;
+    height: 140px;
+}
+
+.avatar-des {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 9px;
+    display: block;
+    line-height: 2;
+}
+
+.author-link-post {
+    border: 1px solid #4ca5ff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: #4ca5ff;
+}
+
+.author-link-post:hover {
+    background-color: #4ca5ff;
+    color: #fff;
+}
+
+.single-share a {
+    color: #7b868a;
+    margin: 0 5px;
+}
+
+/*====================== single-box-so */
+.single-box-so {
+    background-color: #fff;
+    color: #7b7b7b;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .07);
+    transition: top .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.single-so-icon {
+    width: 105px;
+    position: relative;
+    height: 90px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-so-icon img {
+    position: relative;
+    z-index: 2;
+    fill: #fff;
+    margin-top: 2px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.single-so-icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+    transform: skewX(-10deg);
+    transform-origin: left bottom;
+    z-index: 1;
+}
+
+.single-instagram .single-so-icon:before {
+    -webkit-box-shadow: -13px 0 rgba(254, 114, 103, .2), -23px 0 rgba(254, 114, 103, .1);
+    box-shadow: -13px 0 rgba(254, 114, 103, .2), -23px 0 rgba(254, 114, 103, .1);
+    background: #f76290;
+    background: linear-gradient(295deg, #f76290 0%, #fe7464 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f76290", endColorstr="#fe7464", GradientType=1);
+}
+
+.single-telegram .single-so-icon:before {
+    -webkit-box-shadow: -13px 0 rgba(94, 186, 232, .2), -23px 0 rgba(94, 186, 232, .1);
+    box-shadow: -13px 0 rgba(94, 186, 232, .2), -23px 0 rgba(94, 186, 232, .1);
+    background: #5ebae8;
+}
+
+.single-so-text b {
+    color: #5ebae8;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.single-box-so:hover {
+    top: -3px;
+    -webkit-box-shadow: 0 8px 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .1);
+    color: #7b7b7b;
+}
+
+/*=========================advice-box */
+.advice-box .advice-inner {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    background: #fff url("images/advice.png") no-repeat;
+    background-position: right -75px top -20px;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .07);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .07);
+    border-radius: 5px;
+}
+
+.advice-box .advice-inner h3 {
+    color: #7b868a;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.advice-box .advice-inner p {
+    color: #616161;
+    padding: 20px;
+}
+
+.advice-box .advice-inner a {
+    color: #fff;
+    border-radius: 100px;
+    display: table;
+    margin: 25px auto 45px;
+    padding: 8px 15px;
+    background-color: #4ba4fe;
+    outline: 0;
+}
+
+/*========================== advice-modal-content */
+.advice-modal-content .tel {
+    background: url("images/advice-popup.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+}
+
+.advice-form {
+    position: relative;
+    padding: 0 40px 40px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.advice-form h3 {
+    font-size: 23px;
+    padding: 20px 0;
+}
+
+.advice-form:after {
+    content: "یا";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 1;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: rgb(229, 229, 229);
+    padding: 8px 0;
+}
+
+/*============================ related-posts */
+.related-post-box {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease;
+    background-color: #fff;
+    border: 1px solid #4ba4fe;
+}
+
+.related-post-box .post-inner figure {
+    margin: 0;
+    position: relative;
+}
+
+.related-post-box .post-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.related-post-box .venus-waves {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    display: block;
+    width: 100%;
+}
+
+.related-post-box .post-detail {
+    padding: 20px 25px;
+}
+
+.related-post-box .post-detail .category {
+    font-size: 12px;
+    color: #ff8989;
+    margin-bottom: 10px;
+}
+
+.related-post-box .post-detail a span {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    min-height: 60px;
+    color: #282828;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.related-post-box .author-image {
+    margin-left: 15px;
+}
+
+.related-post-box .author-image img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.author-info .author-name {
+    font-size: 15px;
+    padding-top: 6px;
+    cursor: default;
+    font-weight: 400;
+}
+
+/*=========================== comment-single-post */
+.comment-single-post {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+/*---- singleproduct ----*/
+
+.single-content .feature {
+
+    font-size: 20px;
+
+}
+
+/*---- othercomment start****/
+
+.other_comment {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px 0;
+ }
+
+.other_comment .comments{
+
+   border-bottom: 1px solid #cccccc;
+
+}
+
+.comment_user .user_icon{
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    border-radius: 100%;
+    color: #cccccc;
+    line-height: 48px;
+    font-size: 28px;
+
+
+}
+
+/*---- othercomment end****/
+
